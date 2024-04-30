@@ -1,0 +1,16 @@
+#PODEMOS TRABALHAR COM VARIOS APPLICATION NO SPRING
+spring:
+  profiles:
+    active:
+      - dev
+
+  application:
+    name: spring.application.name
+  datasource:
+    url: jdbc:postgresql://localhost:5432/learn
+    username: postgres
+    password: minha_senha
+
+    #ESSE PODE SER OPCIONAL POREM E RECOMENDADO CRIA-LO
+    driver-class-name: org.postgresql.Driver
+
