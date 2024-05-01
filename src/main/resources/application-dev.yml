@@ -1,4 +1,12 @@
 spring:
+  #CONFIG BASICO
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
+
+
   application:
     name: spring.application.name
   datasource:
@@ -12,3 +20,4 @@ spring:
 
 server:
   port: 8081
+
