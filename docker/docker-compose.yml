@@ -1,0 +1,8 @@
+services:
+  banco-de-dados:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: minha_senha
+      POSTGRES_DB: learn
+    ports:
+      - 5432:5432

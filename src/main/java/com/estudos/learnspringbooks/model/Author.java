@@ -3,6 +3,7 @@ package com.estudos.learnspringbooks.model;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 import java.util.LinkedHashSet;
@@ -20,7 +21,7 @@ public class Author {
     private String nome;
 
     @Temporal(TemporalType.DATE)
-    @Column(name = "nascimento")
+    @DateTimeFormat(pattern = "dd/MM/yyyy")
     private Date nascimento;
 
     @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, orphanRemoval = true)
