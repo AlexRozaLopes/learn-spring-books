@@ -14,4 +14,6 @@ spring:
     #ESSE PODE SER OPCIONAL POREM E RECOMENDADO CRIA-LO
     driver-class-name: org.postgresql.Driver
 
-
+inf:
+  prop:
+    descricao: ambiente de local!!!

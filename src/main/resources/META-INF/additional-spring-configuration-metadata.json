@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "inf.prop",
+      "type": "java.lang.String",
+      "description": "atributo para verificar o ambiente!!!"
+    }
+  ]
+}

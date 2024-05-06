@@ -24,3 +24,7 @@ server:
 management:
   endpoints:
     enabled-by-default: true
+
+inf:
+  prop:
+    descricao: ambiente de dev!!!
