@@ -1,4 +1,8 @@
 spring:
+  rabbitmq:
+    username: alex
+    password: alex
+
   #CONFIG BASICO
   jpa:
     show-sql: true
